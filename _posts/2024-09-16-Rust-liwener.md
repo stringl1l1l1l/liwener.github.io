@@ -524,7 +524,7 @@ fn main() {
   fn main() {
       let s1 = String::from("hello");
       let s2 = s1;
-  
+  png
       println!("{}, world!", s1);
   
   }
@@ -3925,7 +3925,7 @@ fn main() {
 
 4. `FnOnce` -> `FnMut` -> `Fn`有渐进的依赖关系，例如实现`FnOnce`时，`Fn`和`FnMut`必须实现。
 
-   ![Rust的三种闭包类型](assets\img\post-images\20240916-Rust-liwener\rust-closure.jpg)
+   ![Rust的三种闭包类型](assets/img/post-images/20240916-Rust-liwener/rust-closure.jpg)
 
 让我们来看看在 `Option<T>` 上的 `unwrap_or_else` 方法的定义：
 
